@@ -137,7 +137,8 @@ $mail->setFrom($imelnya, 'Lucas');
 elseif (strpos($adres, 'groups') !== false) {
     sleep($config['delay']); //jeda group
 }else{
-sleep(5);}
+sleep(5);
+}
 			}
 			unlink($argv[3]);
 			file_put_contents("sukses/".$fn, json_encode($baru));
