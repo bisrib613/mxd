@@ -92,6 +92,8 @@ $mail->setFrom($imelnya, 'Lucas');
 }
 elseif (strpos($adres, 'groups') !== false) {
     sleep($config['delay']); //jeda group
+}else{
+sleep(5);
 }
 			}
 			unlink($argv[3]);
