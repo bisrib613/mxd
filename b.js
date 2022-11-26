@@ -28,6 +28,6 @@ $.getJSON(googleAPI, function (response) {
 <div style="font-size: 13.3333px;">${deskripsi}</div>`
         // in production code, item.text should have the HTML entities escaped.
        // document.getElementById("content").innerHTML += '<br>' + item.volumeInfo.title +        ' By : ' + item.volumeInfo.authors + '<br><img src="' +image  + '" alt="EBOOK #T#" />';
-       document.getElementById("content").innerHTML += tem
+       document.getElementById("relatedImage").innerHTML += tem
       }
 });
