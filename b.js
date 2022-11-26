@@ -11,7 +11,7 @@ $.getJSON(googleAPI, function (response) {
         var deskripsi = item.volumeInfo.description
         var pubdate = item.volumeInfo.publisher
         var detil = `<p>Title : ${title}</p><p>Author : ${author}</p><p>Publisher : ${publisher}</p><p>Release Date : ${pubdate}</p>`;
-        var tem = `<div style="text-align: center; font-size: 13.3333px;"><em>PDF, EPub, Mobi, Kindle online. Free book ${title} by ${author}.</em></div>
+        var tem+ = `<div style="text-align: center; font-size: 13.3333px;"><em>PDF, EPub, Mobi, Kindle online. Free book ${title} by ${author}.</em></div>
 <p>&nbsp;</p>
 <div style="text-align: center; font-size: 13.3333px;"><em>.</em><img style="background-color: transparent; text-align: left; font-size: 14px;" src="${image}" alt="${title}" width="300" height="400" border="0" /></div>
 <p>&nbsp;</p>
