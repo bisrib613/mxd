@@ -6,6 +6,7 @@ $.getJSON(googleAPI, function (response) {
         var image = item.volumeInfo.imageLinks.thumbnail
         var image = image.replace(/edge=curl/g, 'fife=w400-h600')
         var title = item.volumeInfo.title
+        titles += item.volumeInfo.title
         var author = item.volumeInfo.authors
         var publisher = item.volumeInfo.publisher
         var deskripsi = item.volumeInfo.description
