@@ -31,5 +31,5 @@ $.getJSON(googleAPI, function (response) {
        // document.getElementById("content").innerHTML += '<br>' + item.volumeInfo.title +        ' By : ' + item.volumeInfo.authors + '<br><img src="' +image  + '" alt="EBOOK #T#" />';
       document.write('<title>blog'+ title+'</title>')
       }
-     return tem
+    
 });
