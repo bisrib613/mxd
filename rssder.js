@@ -5,25 +5,25 @@ var name = params.get('name'); // "bima"
 
 switch (name) {
     case 'aku':
-        var LP = "https://forsharedpdf.site/"
+         LP = "https://forsharedpdf.site/"
         break;
     case 'ipik':
-        var LP = "https://kindleebs.xyz/"
+         LP = "https://kindleebs.xyz/"
         break;
     case 'eka':
-        var LP = "https://read.forsharedpdf.site/"
+         LP = "https://read.forsharedpdf.site/"
         break;
     case 'cv':
         var LP = "https://cv.kindledeals.club/"
         break;
     case 'bima':
-        var LP = "https://kindledeals.club/"
+         LP = "https://kindledeals.club/"
         break;
     case 'anas':
-        var LP = "https://best.kindledeals.club/"
+         LP = "https://best.kindledeals.club/"
         break;
         default:
-        var LP = "https://ebookbiz.info/"
+         LP = "https://ebookbiz.info/"
    
 }
 
