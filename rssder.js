@@ -22,7 +22,8 @@ switch (name) {
     case 'anas':
         var LP = "https://best.kindledeals.club/"
         break;
-   
+        default:
+        var LP = "https://ebookbiz.info/"
    
 }
 
